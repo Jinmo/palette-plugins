@@ -1,7 +1,10 @@
-[
-	{
-		"name": "Community Headers",
-		"path": "community-headers",
-		"version": "0.0.1"
-	}
-]
+{
+	"base": "https://raw.githubusercontent.com/Jinmo/palette-plugins/master/",
+	"packages": [
+		{
+			"name": "Community Headers",
+			"path": "community-headers",
+			"version": "0.0.1"
+		}
+	]
+}
