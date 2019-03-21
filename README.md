@@ -1,1 +1,1 @@
-"# palette-plugins" 
+# palette-plugins
