@@ -1,5 +1,8 @@
 {
 	"name": "Community Headers",
 	"version": "0.0.1",
-	"entry": "main.py"
+	"entry": [{
+		"path": "main.py",
+		"version": ">=7.0"
+	}]
 }

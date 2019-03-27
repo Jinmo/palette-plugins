@@ -6,7 +6,7 @@ res = {
 	"base": "http://127.0.0.1/p/archive/",
 	"packages": []
 }
-for path in os.popen('git ls-files|grep /'):
+for path in os.popen('git ls-files|grep /info.json'):
 	path = path.split('/')[0]
 	if path in visited:
 		continue

@@ -4,6 +4,7 @@ from ifred.util import register_action
 import idaapi
 import requests
 import json
+import threading
 
 from functools import partial
 from idc import ParseTypes
@@ -28,6 +29,8 @@ def show_online_headers():
     actions = list(Action(handler=partial(import_headers, x), id=x, description= x)
                    for x in headers)
     show_palette(Palette(myplugin_t.wanted_name, actions))
+    t = threading.Thread(target=handler)
+    t.start()
 
 
 class myplugin_t(idaapi.plugin_t):
