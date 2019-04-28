@@ -1,0 +1,5 @@
+{
+    "name": "IDASkins",
+    "version": "2.0.4",
+    "plugins": "idaskins.py"
+}

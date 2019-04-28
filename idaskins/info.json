@@ -1,0 +1,7 @@
+{
+	"_id": "idaskins",
+    "name": "IDASkins",
+    "version": "2.0.4",
+    "description": "Advanced skinning plugin for IDA Pro",
+    "keywords": ["theme"]
+}

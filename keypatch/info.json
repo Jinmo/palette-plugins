@@ -1,0 +1,9 @@
+{
+	"_id": "keypatch",
+	"name": "Keypatch",
+	"version": "2.1.0",
+	"description": "Multi-architecture assembler for IDA Pro. Powered by Keystone Engine. http://www.keystone-engine.org/keypatch",
+	"installers": [
+		"keystone_installer.py"
+	]
+}

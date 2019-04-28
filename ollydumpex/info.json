@@ -1,0 +1,6 @@
+{
+	"_id": "ollydumpex",
+	"name": "OllyDumpEx",
+	"version": "0.1.0",
+	"description": "This plugin is process memory dumper for OllyDbg and Immunity Debugger."
+}

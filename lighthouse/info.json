@@ -1,0 +1,6 @@
+{
+	"_id": "lighthouse",
+	"name": "Lighthouse",
+	"version": "0.8.3",
+	"description": "Code Coverage Explorer for IDA Pro & Binary Ninja"
+}

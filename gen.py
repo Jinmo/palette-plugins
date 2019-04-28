@@ -12,12 +12,10 @@ for path in os.popen('git ls-files|grep /info.json'):
 		continue
 	visited.add(path)
 	info = json.load(open(path + '/info.json', 'rb'))
-	del info['entry']
-	info['path'] = path
 	res['packages'].append(info)
 	if os.path.isdir(path):
 		os.system('cd %s; zip -r - . > ../archive/%s' % (path, path))
 
 
-with open('plugins.json', 'wb') as f:
+with open('plugins.json', 'w') as f:
 	json.dump(res, f)

@@ -1,0 +1,9 @@
+{
+	"_id": "idawasm",
+	"name": "idawasm",
+	"description": "IDA Pro loader and processor modules for WebAssembly",
+	"version": "0.1.0",
+	"installers": [
+		"installer.py"
+	]
+}

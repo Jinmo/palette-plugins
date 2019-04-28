@@ -1,8 +1,7 @@
 {
+	"_id": "community-headers",
 	"name": "Community Headers",
 	"version": "0.0.1",
-	"entry": [{
-		"path": "main.py",
-		"version": ">=7.0"
-	}]
+	"description": "Load C/C++ headers from online repos",
+	"homepage": "https://jinmo.github.io"
 }
